@@ -3,5 +3,5 @@ cookbook_file "/srv/www/wordpress/current/wp-config.php" do
   mode '0777'
   action :create
   owner 'deploy'
-  group 'root'
+  group 'www-data'
 end
